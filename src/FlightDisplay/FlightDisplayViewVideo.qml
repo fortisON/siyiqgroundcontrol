@@ -192,12 +192,4 @@ Item {
             property int zoom: 0
         }
     }
-
-    MyCustomAim {
-        id: customAim
-        z: 1100
-        focus: true
-        visible: !_mainWindowIsMap
-        enabled: false
-    }
 }

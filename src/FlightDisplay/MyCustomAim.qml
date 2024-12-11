@@ -380,13 +380,12 @@ Rectangle {
         id: togglePepSwitch
         text: qsTr("Детально")
         checked: false
-        // visible: toggleSwitch.checked
+        visible: toggleSwitch.checked
         anchors.left: parent.left
         anchors.bottom: parent.bottom
         anchors.leftMargin: 20
         anchors.bottomMargin: 386
         z: zIndex
-        visible: false
 
         indicator: Rectangle {
             implicitWidth: 150
@@ -426,7 +425,7 @@ Rectangle {
         anchors.bottomMargin: 300
         anchors.leftMargin: 20
         z: zIndex
-        visible: false
+        visible: true
 
         indicator: Rectangle {
             implicitWidth: 150

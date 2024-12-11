@@ -150,6 +150,12 @@ Item {
         iconLeftMargin: widgetLayer.iconLeftMargin
     }
 
+    MyCustomAim {
+        id: customAim
+        z: 1100
+        visible: !_mainWindowIsMap
+    }
+
     QGCPipOverlay {
         id: _pipOverlay
         anchors.left: parent.left
